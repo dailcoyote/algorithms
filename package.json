@@ -1,0 +1,17 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "Algorithms implemented in JavaScript ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Graph",
+    "Data",
+    "Structures",
+    "Javascript"
+  ],
+  "author": " <yergaliyev.production@gmail.com>",
+  "license": "ISC"
+}
