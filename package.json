@@ -4,7 +4,7 @@
   "description": "Algorithms implemented in JavaScript ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "Graph",
@@ -15,6 +15,9 @@
   "author": " <yergaliyev.production@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "babel-jest": "^28.1.2",
     "jest": "^28.1.2"
   }
 }

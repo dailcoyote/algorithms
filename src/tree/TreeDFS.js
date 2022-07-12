@@ -15,7 +15,7 @@ class TreeDFS {
                 let discovery =
                     wantedNode.level < 2 && !wantedNode.children
                         ? wantedNode.name
-                        : this.dfsParentNode(root, wantedNode, mergedNodes);
+                        : this.searchParentNode(root, wantedNode, mergedNodes);
 
                 if (discovery) {
                     unqiueParentNodes.add(discovery);
@@ -53,3 +53,5 @@ class TreeDFS {
         return undefined;
     }
 }
+
+export default TreeDFS;
