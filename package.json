@@ -13,5 +13,8 @@
     "Javascript"
   ],
   "author": " <yergaliyev.production@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
 }
